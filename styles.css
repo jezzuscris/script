@@ -18,7 +18,7 @@
     --dark-shadow: rgba(0, 0, 0, 0.3);
     --dark-accent: #3a97d4;
     
-    /* Default to light theme */
+    /* Default to dark theme */
     --bg: var(--dark-bg);
     --card-bg: var(--dark-card-bg);
     --text: var(--dark-text);
@@ -26,10 +26,9 @@
     --border: var(--dark-border);
     --shadow: var(--dark-shadow);
     --accent: var(--dark-accent);
-
 }
 
-/* Dark mode class */
+/* Light mode class */
 body.dark-mode {
     --bg: var(--light-bg);
     --card-bg: var(--light-card-bg);
@@ -49,7 +48,7 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Theme toggle button */
+/* Rest of the CSS remains unchanged */
 .theme-toggle {
     display: flex;
     align-items: center;
