@@ -19,17 +19,6 @@
     --dark-accent: #3a97d4;
     
     /* Default to light theme */
-    --bg: var(--light-bg);
-    --card-bg: var(--light-card-bg);
-    --text: var(--light-text);
-    --secondary-text: var(--light-secondary-text);
-    --border: var(--light-border);
-    --shadow: var(--light-shadow);
-    --accent: var(--light-accent);
-}
-
-/* Dark mode class */
-body.dark-mode {
     --bg: var(--dark-bg);
     --card-bg: var(--dark-card-bg);
     --text: var(--dark-text);
@@ -37,6 +26,18 @@ body.dark-mode {
     --border: var(--dark-border);
     --shadow: var(--dark-shadow);
     --accent: var(--dark-accent);
+
+}
+
+/* Dark mode class */
+body.dark-mode {
+    --bg: var(--light-bg);
+    --card-bg: var(--light-card-bg);
+    --text: var(--light-text);
+    --secondary-text: var(--light-secondary-text);
+    --border: var(--light-border);
+    --shadow: var(--light-shadow);
+    --accent: var(--light-accent);
 }
 
 body {
